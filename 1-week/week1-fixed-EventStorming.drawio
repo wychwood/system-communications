@@ -1,0 +1,240 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="EventStorming" id="GM1BS47YAjaM7awzS10F">
+    <mxGraphModel dx="7290" dy="4825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t7gO1w77G0r2WEELhdzj-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Система из уроков" vertex="1">
+          <mxGeometry height="480" width="600" x="3370" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontSize=20;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Создание и поддержка заданий" vertex="1">
+          <mxGeometry height="1130" width="4190" x="180" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontSize=20;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Найм учителей" vertex="1">
+          <mxGeometry height="940" width="3030" x="180" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontSize=20;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Бонусы менеджеров" vertex="1">
+          <mxGeometry height="660" width="1595" x="5175" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Actor" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Command" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Event" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#7BC88D;strokeColor=none;" value="Read Model" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#CC99FF;strokeColor=none;" value="Policy" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFCCFF;strokeColor=none;" value="External System" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;strokeColor=none;" value="Comment" vertex="1">
+          <mxGeometry height="120" width="120" x="-200" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Менеджер" vertex="1">
+          <mxGeometry height="120" width="120" x="280" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-44" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-11" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Зарегистрировать задание" vertex="1">
+          <mxGeometry height="120" width="120" x="410" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-7" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5089.999999999998" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание зарегистрировано" vertex="1">
+          <mxGeometry height="120" width="120" x="540" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Менеджер" vertex="1">
+          <mxGeometry height="120" width="120" x="800" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-45" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Изменить условие задания" vertex="1">
+          <mxGeometry height="120" width="120" x="930" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-8" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание отредактировано" vertex="1">
+          <mxGeometry height="120" width="120" x="1060" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-16" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Потенциальный учитель" vertex="1">
+          <mxGeometry height="120" width="120" x="280" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-17" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Зарегистриоваться" vertex="1">
+          <mxGeometry height="120" width="120" x="410" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-18" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Кандидат зарегистрирован" vertex="1">
+          <mxGeometry height="120" width="120" x="540" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-19" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Потенциальный учитель" vertex="1">
+          <mxGeometry height="120" width="120" x="800" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-20" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Войти в систему" vertex="1">
+          <mxGeometry height="120" width="120" x="930" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-21" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Вошел в систему" vertex="1">
+          <mxGeometry height="120" width="120" x="1060" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-22" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Менеджер" vertex="1">
+          <mxGeometry height="120" width="120" x="1390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-23" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Назначить задание кандидату" vertex="1">
+          <mxGeometry height="120" width="120" x="1520" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-47" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-24" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание кандидату назначено" vertex="1">
+          <mxGeometry height="120" width="120" x="1650" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-25" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Потенциальный учитель" vertex="1">
+          <mxGeometry height="120" width="120" x="2060" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-26" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Отправить решение на проверку" vertex="1">
+          <mxGeometry height="120" width="120" x="2190" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-31" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t7gO1w77G0r2WEELhdzj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-27" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Решение отправлено на проверку" vertex="1">
+          <mxGeometry height="120" width="120" x="2320" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-28" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Проверить решение" vertex="1">
+          <mxGeometry height="120" width="120" x="2725" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-5" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-6" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-10" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4670" y="845" />
+              <mxPoint x="4670" y="10" />
+            </Array>
+            <mxPoint x="5250" y="19.999999999999545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-29" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание решено правильно" vertex="1">
+          <mxGeometry height="120" width="120" x="2850" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-57" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4830" y="975" />
+              <mxPoint x="4830" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-30" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание выполнено неверно" vertex="1">
+          <mxGeometry height="120" width="120" x="2850" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-32" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Назначить менеджера на переделку задания" vertex="1">
+          <mxGeometry height="120" width="120" x="3280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-33" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Менеджер для переделки задания назначен" vertex="1">
+          <mxGeometry height="120" width="120" x="3410" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-34" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#CC99FF;strokeColor=none;" value="Если задание выполнено 10 раз подряд" vertex="1">
+          <mxGeometry height="120" width="120" x="3150" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-36" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Комментарий №2&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Обычно я стараюсь разделять такое на 2 отдельные команды, каждая со своим результатом (событием).&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Но здесь я так не стал делать.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;В требованиях сказано:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;[US-080] Потенциальный учитель отправляет решение в форму, где &lt;u&gt;система&lt;/u&gt; &lt;b&gt;автоматически&lt;/b&gt; его проверяет и выдаёт оценку, правильно выполнено задание или нет.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Из чего я делаю выводы:&lt;br&gt;1) Проверяет - &lt;u&gt;система&lt;/u&gt;. Т.е. здесь нет явного актора, типа &quot;Менеджера&quot;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2) Проверка осуществляется &lt;b&gt;автоматически&lt;/b&gt;. Это означает, что бизнес-событие &quot;кандидат отправил решение на проверку&quot; должно автоматически триггерить команду &quot;проверить решение&quot;. Эта команда может вернуть одно из двух событий: &quot;Задание решено правильно&quot;, или &quot;Задание решено неправильно&quot;.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Т.е. если сделать 2 отдельные команды со стрелочками от события &quot;решение отправлено на проверку&quot; - то будет выглядеть как будто событие триггерит &lt;b&gt;обе&lt;/b&gt; команды. А на самом деле произойдет что-то &lt;u&gt;одно&lt;/u&gt;.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="480" width="400" x="2690" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-39" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFFFCC;strokeColor=none;" value="Менеджер" vertex="1">
+          <mxGeometry height="120" width="120" x="3860" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-43" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-40" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Усложнить задание" vertex="1">
+          <mxGeometry height="120" width="120" x="3990" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-41" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Задание отредактировано" vertex="1">
+          <mxGeometry height="120" width="120" x="4120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-42" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFCCFF;strokeColor=none;" value="Сервис по продаже заданий для найма учителей" vertex="1">
+          <mxGeometry height="120" width="120" x="4630" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-46" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#7BC88D;strokeColor=none;" value="Назначенное задание" vertex="1">
+          <mxGeometry height="120" width="120" x="1930" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-48" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Начислить бонусы менеджеру" vertex="1">
+          <mxGeometry height="120" width="120" x="5280" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-2" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="htzVatoqgLlTK-bcgLwq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-49" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Бонус менеджеру начислен" vertex="1">
+          <mxGeometry height="120" width="120" x="5410" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-50" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Списать бонус у менеджера" vertex="1">
+          <mxGeometry height="120" width="120" x="5275" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-3" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="htzVatoqgLlTK-bcgLwq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-51" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Бонус менеджера списан" vertex="1">
+          <mxGeometry height="120" width="120" x="5405" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-59" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Зарегистрировать учителя" vertex="1">
+          <mxGeometry height="120" width="120" x="3545" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-60" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Учитель зарегистрирован" vertex="1">
+          <mxGeometry height="120" width="120" x="3675" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-62" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFCCFF;strokeColor=none;" value="scheduler" vertex="1">
+          <mxGeometry height="120" width="120" x="5950" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-65" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t7gO1w77G0r2WEELhdzj-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-63" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Расчетный цикл менеджера закончился" vertex="1">
+          <mxGeometry height="120" width="120" x="6080" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-64" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#99CCFF;strokeColor=none;" value="Закрыть расчетный период менеджера" vertex="1">
+          <mxGeometry height="120" width="120" x="6350" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="t7gO1w77G0r2WEELhdzj-66" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#FFB366;strokeColor=none;" value="Взаиморасчеты с менеджером проведены" vertex="1">
+          <mxGeometry height="120" width="120" x="6480" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#7BC88D;strokeColor=none;" value="Баланс менеджера" vertex="1">
+          <mxGeometry height="120" width="120" x="5680" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;shadow=1;fillColor=#7BC88D;strokeColor=none;" value="Задание для усложнения" vertex="1">
+          <mxGeometry height="120" width="120" x="3730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-9" edge="1" parent="1" source="t7gO1w77G0r2WEELhdzj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="t7gO1w77G0r2WEELhdzj-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4540" y="380" />
+              <mxPoint x="4540" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-11" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Комментарий №1&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Здесь я специально не стал &quot;переиспользовать&quot; бизнес-команду &quot;изменить условие задания&quot; а выделил отдельную бизнес-команду.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="400" x="3590" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="htzVatoqgLlTK-bcgLwq-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Комментарий №3&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Read Model &quot;Баланс менеджера&quot; добавил по аналогии с моделью из урока.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="320" x="5680" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
