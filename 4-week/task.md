@@ -67,13 +67,13 @@
   - trend — метрики в графане на число RPM/RPS за период времени
   - threshold — нагрузочное тестирование после релиза (тестируем на минимальные требования)
 - Reliability
-  - atomic — heartbeat / liveness probe по одному сервису
+  - atomic — heartbeat / liveness probe по одному сервису / error rate обработки событий
   - holistic — метрики в графане по всей системе / chaos engineering
-  - automated — ? я думаю наши пользователи и есть такая фитнес-функция
-  - manual — метрики в графане по всей системе / chaos engineering
+  - automated — метрики по error rate HTTP вызовов / обработки событий / размеру DLQ
+  - manual — chaos engineering
   - triggered — chaos engineering
-  - continous — ? я думаю наши пользователи и есть такая фитнес-функция
-  - trend — ? я думаю наши пользователи и есть такая фитнес-функция
+  - continous — метрики по error rate HTTP вызовов / обработки событий / размеру DLQ
+  - trend — метрики по error rate HTTP вызовов / обработки событий / размеру DLQ
   - threshold — chaos engineering / метрики
 
 ### Спасибо что прочитали!
