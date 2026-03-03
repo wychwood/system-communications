@@ -58,20 +58,20 @@
 ### Фитнес-функции
 
 - Scalability
-  - atomic — делаем так
-  - holistic — делаем так
-  - automated — делаем так
-  - manual — делаем так
-  - triggered — делаем так
-  - continous — делаем так
-  - trend — делаем так
-  - threshold — делаем так
+  - atomic — нагрузочное тестирование отделного сервиса (параллельно зовем сервис / заваливаем событиями из брокера)
+  - holistic — нагрузочное тестирование после релиза (если на всю систему то holistic)
+  - automated — нагрузочное тестирование по распианию, или по коммиту в gitlab / bitbucket (lol)
+  - manual — нагрузочное тестирование после релиза (т.к. запускаем вручную)
+  - triggered — нагрузочное тестирование после релиза (т.к. запускаем явно сами)
+  - continous — метрики в графане на число Requests Per Minute / Second, хз
+  - trend — метрики в графане на число RPM/RPS за период времени
+  - threshold — нагрузочное тестирование после релиза (тестируем на минимальные требования)
 - Reliability
-  - atomic — делаем так
-  - holistic — делаем так
-  - automated — делаем так
-  - manual — делаем так
-  - triggered — делаем так
-  - continous — делаем так
-  - trend — делаем так
-  - threshold — делаем так
+  - atomic — heartbeat / liveness probe по одному сервису
+  - holistic — метрики в графане по всей системе / chaos engineering
+  - automated — ? я думаю наши пользователи и есть такая фитнес-функция
+  - manual — метрики в графане по всей системе / chaos engineering
+  - triggered — chaos engineering
+  - continous — ? я думаю наши пользователи и есть такая фитнес-функция
+  - trend — ? я думаю наши пользователи и есть такая фитнес-функция
+  - threshold — chaos engineering / метрики
